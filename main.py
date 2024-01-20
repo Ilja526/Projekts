@@ -1,7 +1,6 @@
 import cv2
-import numpy as np
 
-image = cv2.imread('img2/Green2.jpg')
+image = cv2.imread('img2/RF.jpg')
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
